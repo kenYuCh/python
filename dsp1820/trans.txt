@@ -1,0 +1,18 @@
+# ttl
+ssh pi@home.local
+
+# wifi
+ssh pi@192.168.1.120
+
+# translate folder
+scp ~/python/name.py pi@192.168.1.120:/home/pi/
+
+
+sudo nano /boot/config.txt
+sudo modprobe w1-gpio
+sudo modprobe w1-therm
+cd /sys/bus/w1/devices
+
+
+
+sudo pip3 install flask-restful
